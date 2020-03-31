@@ -1,0 +1,540 @@
+@font-face {
+  font-family: "myfont";
+  src: url("../fonts/SctoGroteskA-Bold.woff2") format("woff");
+}
+@font-face {
+  font-family: "myfont2";
+  src: url("../fonts/SctoGroteskA-Medium.woff2") format("woff");
+}
+@font-face {
+  font-family: "myfont3";
+  src: url("../fonts/SctoGroteskA-Regular.woff2") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: myfont3;
+  background: url(../img/base.png) #252422;
+  color: #f9cdcd;
+}
+.container {
+  width: 90%;
+  max-width: 120rem;
+  margin: auto;
+}
+.container2 {
+  width: 90%;
+  max-width: 120rem;
+  margin: auto;
+}
+/*NAV*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9rem;
+  padding: 2rem 0;
+  font-size: 0.8rem;
+  position: sticky;
+  top: 0;
+  background: url(../img/base.png) #252422;
+  z-index: 99;
+}
+nav img {
+  width: 6.5rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding: 0 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f9cdcd;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  text-decoration: underline #f9cdcd;
+  text-underline-position: under;
+}
+nav ul li:nth-child(2) {
+  text-decoration: underline #f9cdcd;
+  text-underline-position: under;
+}
+nav span {
+  display: flex;
+}
+nav span div {
+  margin: 2px;
+}
+nav span img {
+  width: 1.7rem;
+}
+nav span div {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #000;
+  border-radius: 50%;
+}
+/*header*/
+
+.news {
+  display: flex;
+}
+
+header h1 {
+  font-size: 5.5rem;
+  font-family: myfont;
+  text-transform: uppercase;
+}
+.brandbeats h1 {
+  font-size: 5.5rem;
+  font-family: myfont;
+  text-transform: uppercase;
+}
+.brandbeats h1 span {
+  display: block;
+}
+header h1 span {
+  display: block;
+}
+.punkt {
+  width: 4rem;
+  height: 4rem;
+  background: #f9cdcd;
+  border-radius: 50%;
+}
+.punkt {
+  display: inline-block;
+}
+/*section brandbeats*/
+
+.eins {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.eins h1 {
+  margin-top: -6rem;
+  margin-right: 11rem;
+  margin-bottom: 2rem;
+}
+.brandbeats p {
+  font-size: 2.2rem;
+  line-height: 2.3rem;
+  margin-bottom: 3rem;
+}
+.brandbeats p span {
+  display: block;
+}
+.brandbeats {
+  border-bottom: 1px solid #f9cdcd;
+}
+
+/*main crafted*/
+.hover {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.paragraph {
+  display: flex;
+  align-items: center;
+}
+.paragraph p {
+  font-size: 0.7rem;
+}
+.hover .paragraph span {
+  display: flex;
+}
+.hoverBilder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.hoverBilder img {
+  width: 100%;
+}
+.Eins {
+  position: relative;
+  top: 15rem;
+  left: 5rem;
+  z-index: 1;
+}
+.zwei {
+  position: relative;
+  top: 23rem;
+  right: 13rem;
+}
+.drei {
+  position: relative;
+  bottom: 15rem;
+  left: 10rem;
+}
+.vier {
+  position: relative;
+  bottom: 7rem;
+}
+
+.Eins:hover {
+  z-index: 1;
+}
+.zwei:hover {
+  z-index: 1;
+}
+.drei:hover {
+  z-index: 1;
+}
+.vier:hover {
+  z-index: 1;
+}
+.figeins {
+  position: relative;
+  top: 15.5rem;
+  left: 5rem;
+}
+.figZwei {
+  position: relative;
+  bottom: 14.5rem;
+  left: 10rem;
+}
+.figDrei {
+  position: relative;
+  top: -17rem;
+  margin-left: 20rem;
+}
+.figvier {
+  position: relative;
+  bottom: 6.6rem;
+}
+.basic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid #f9cdcd;
+}
+.basicImg {
+  width: 100%;
+  padding: 1.2rem 0;
+}
+.zwischen {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #f9cdcd;
+  text-transform: uppercase;
+  padding-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+.zwischen p {
+  font-size: 0.8rem;
+}
+.zwischen .ab {
+  margin-left: -28rem;
+}
+.punkt2 {
+  width: 0.6rem;
+  height: 0.6rem;
+  background: #f9cdcd;
+  border-radius: 50%;
+}
+.acency {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.acency span {
+  display: block;
+}
+.acency section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+.acency h2 {
+  font-size: 2rem;
+  font-family: myfont;
+}
+.acency h3 {
+  font-size: 1.5rem;
+  font-family: myfont;
+}
+.acency h4 {
+  font-size: 3.5rem;
+  font-family: myfont;
+  margin: 0.5rem 0;
+}
+.acency p {
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+}
+.acency .p2 {
+  line-height: 2rem;
+  margin-top: 0.8rem;
+}
+.acency2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 2rem;
+}
+.acency2 span {
+  display: block;
+}
+.acency2 h2 {
+  font-size: 2rem;
+  font-family: myfont;
+}
+.acency2 h3 {
+  font-size: 2rem;
+  font-family: myfont;
+  margin-bottom: 2.5rem;
+}
+.acency2 a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-family: myfont;
+  color: #f9cdcd;
+  border: 1px solid #f9cdcd;
+  padding: 0.6rem 1.6rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+.acency2 a:hover {
+  color: #252422;
+  background: #f9cdcd;
+  border: 1px solid #ffff;
+}
+.webby {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+.webby span {
+  display: inline-block;
+  font-size: 1.2rem;
+  vertical-align: text-top;
+}
+.webby h2 {
+  font-size: 4.5rem;
+  font-family: myfont;
+  opacity: 0.5;
+}
+.webby h2:hover {
+  opacity: 1;
+}
+.webby h2:nth-last-child(1) {
+  margin-bottom: 33rem;
+}
+#hover1 {
+  display: none;
+}
+#hover2 {
+  display: none;
+}
+#hover3 {
+  display: none;
+}
+#hover4 {
+  display: none;
+}
+#hover5 {
+  display: none;
+}
+#hover6 {
+  display: none;
+}
+
+/*footer*/
+
+footer {
+  background: url(../img/base.png) #f4f4f4;
+  color: #252422;
+}
+.logo2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 0;
+}
+.logo_klein {
+  width: 3.5rem;
+}
+.logo2 h2 {
+  font-size: 2rem;
+}
+.logo2 h2 a {
+  color: #252422;
+}
+.logo2 h2 span {
+  display: block;
+}
+.array {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  padding-bottom: 150px;
+}
+label {
+  display: block;
+  font-size: 1.5rem;
+}
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #252422;
+  width: 95%;
+  height: 30px;
+}
+.array h2 {
+  font-size: 1.5rem;
+}
+
+.mail h2::before {
+  content: " •";
+  position: relative;
+  top: 5px;
+  font-size: 4rem;
+  vertical-align: sub;
+}
+.insta h2::before {
+  content: " •";
+  position: relative;
+  top: 5px;
+  font-size: 4rem;
+  vertical-align: sub;
+}
+.initiatives h2::before {
+  content: " •";
+  position: relative;
+  top: 5px;
+  font-size: 4rem;
+  vertical-align: sub;
+}
+.offices h2::before {
+  content: " •";
+  position: relative;
+  top: 5px;
+  font-size: 4rem;
+  vertical-align: sub;
+}
+.insta a {
+  color: #252422;
+  text-decoration: none;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #f4f4f4;
+  border-radius: 50%;
+}
+.back {
+  background: url(../img/base.png) #dddddd;
+}
+.bottom {
+  width: 90%;
+  max-width: 120rem;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom p {
+  font-size: 0.7rem;
+  opacity: 0.3;
+}
+
+@media (max-width: 1000px) {
+  * {
+    font-size: 80%;
+  }
+}
+
+.slider-page {
+  font-family: myfont3;
+  background: url(../img/base.png) #252422;
+  color: #f9cdcd;
+  z-index: 9999;
+  display: none;
+}
+.container {
+  width: 90%;
+  max-width: 120rem;
+  margin: auto;
+}
+.head {
+  display: flex;
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.head p {
+  font-size: 1.1rem;
+}
+.collection {
+  margin-left: -15rem;
+}
+.close {
+  width: 4%;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+.slide-image h3 {
+  font-size: 1.5rem;
+  font-family: myfont;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.slide-image p {
+  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in;
+}
+.slider-page a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: myfont;
+  color: #f9cdcd;
+  border: 1px solid #f9cdcd;
+  padding: 0.6rem 3rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+.slider-page a:hover {
+  color: #fff;
+  background: #f9cdcd;
+  border: 1px solid #fff;
+}
+.bild {
+  border-left: solid 1px #f9cdcd;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+.bild article {
+  margin-left: 1.5rem;
+  height: 33rem;
+}
+.slide-image img {
+  width: 26rem;
+  height: 27rem;
+  transition: all 0.2s ease-in;
+}
+.slide-image .paragraph-hidden {
+  display: none;
+}
+
+.slide-image {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.zahl {
+  font-size: 0.8rem;
+  position: relative;
+  bottom: -3rem;
+  left: -0.5rem;
+  margin: 0;
+}
